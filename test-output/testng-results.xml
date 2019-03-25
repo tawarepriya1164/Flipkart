@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="86083" started-at="2019-03-19T06:20:42Z" finished-at="2019-03-19T06:22:09Z">
+  <suite name="Suite" duration-ms="122086" started-at="2019-03-25T12:38:11Z" finished-at="2019-03-25T12:40:13Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="86083" started-at="2019-03-19T06:20:42Z" finished-at="2019-03-19T06:22:09Z">
+    <test name="Test" duration-ms="122086" started-at="2019-03-25T12:38:11Z" finished-at="2019-03-25T12:40:13Z">
       <class name="com.Flipkart.Test.SearchAndAddToBagScript">
-        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.Flipkart.Test.SearchAndAddToBagScript@1593948d]" name="initialization" is-config="true" duration-ms="45465" started-at="2019-03-19T00:20:42Z" finished-at="2019-03-19T00:21:28Z">
+        <test-method status="PASS" signature="initialization(java.lang.String)[pri:0, instance:com.Flipkart.Test.SearchAndAddToBagScript@51565ec2]" name="initialization" is-config="true" duration-ms="45221" started-at="2019-03-25T06:38:11Z" finished-at="2019-03-25T06:38:56Z">
           <params>
             <param index="0">
               <value>
@@ -18,14 +18,10 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="TC_01()[pri:0, instance:com.Flipkart.Test.SearchAndAddToBagScript@1593948d]" name="TC_01" duration-ms="39849" started-at="2019-03-19T00:21:28Z" finished-at="2019-03-19T00:22:08Z">
+        <test-method status="PASS" signature="TC_01()[pri:0, instance:com.Flipkart.Test.SearchAndAddToBagScript@51565ec2]" name="TC_01" duration-ms="76852" started-at="2019-03-25T06:38:56Z" finished-at="2019-03-25T06:40:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_01 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.Flipkart.Test.SearchAndAddToBagScript@1593948d]" name="tearDown" is-config="true" duration-ms="740" started-at="2019-03-19T00:22:08Z" finished-at="2019-03-19T00:22:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- com.Flipkart.Test.SearchAndAddToBagScript -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

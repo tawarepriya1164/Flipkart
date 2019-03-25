@@ -49,11 +49,11 @@ public class TestBase {
 		FileInputStream fis = new FileInputStream(file);
 		prop.load(fis);
 	}
-	@AfterClass
+	/*@AfterClass
 	public void tearDown()
 	{
 	
 		driver.quit();
-	}
+	}*/
 
 }

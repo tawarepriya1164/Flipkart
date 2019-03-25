@@ -21,4 +21,10 @@ public class FlipkartLocators extends TestBase{
     @FindBy(xpath="//div[@class='_3O0U0u']//a[2]") public List<WebElement> getProductNameInList;
     @FindBy(xpath="//a[@class='_2cLu-l' and @title='Mastering Selenium WebDriver 3.0']") public WebElement getFirstBook;
     @FindBy(xpath="//button[@class='_2AkmmA _2Npkh4 _2MWPVK']") public WebElement getAddToCart;
+    @FindBy(xpath="//input[@type='text' and @class='_2zrpKA']") public WebElement getMobileNumber;
+    @FindBy(xpath= "//button[@class='_2AkmmA _1LctnI _7UHT_c' and @type='submit']") public WebElement getContinue;
+    @FindBy(xpath= "//input[@type='password' and @class = '_2zrpKA _3v41xv' ]") public WebElement getPassword;
+    @FindBy(xpath="//button[@class='_2AkmmA _1LctnI _7UHT_c' and @type='submit']") public WebElement getLogin;
+    @FindBy(xpath = "//div[@class='_3pNZKl']//div[3]") public WebElement getmyAccountLink;
+    @FindBy(xpath="//div[@class='_1XhL1B']//ul/li[9]") public WebElement getLogout;
 }

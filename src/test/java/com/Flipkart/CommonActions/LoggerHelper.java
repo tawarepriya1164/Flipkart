@@ -5,7 +5,7 @@ import org.apache.log4j.PropertyConfigurator;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-public class LoggerHelper {
+/*public class LoggerHelper {
 	private static boolean root=false;
 
 	public static Logger getLogger(Class clas) 
@@ -18,6 +18,5 @@ public class LoggerHelper {
 	root=true;
 	return Logger.getLogger(clas);
 }
+*/
 
-
-}
